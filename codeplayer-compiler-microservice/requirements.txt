@@ -1,0 +1,6 @@
+epicbox
+PyRSMQ
+boto3
+python-dotenv
+python-socketio
+simplejson

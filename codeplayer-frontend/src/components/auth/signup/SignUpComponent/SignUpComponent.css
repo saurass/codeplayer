@@ -1,0 +1,8 @@
+.input-label {
+    font-weight: bold;
+    font-size: small;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}

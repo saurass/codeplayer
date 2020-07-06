@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+    networks:
+      - cpnet
+
+  frontend:
+    env_file:
+      - ./frontend.env
+    image: saurass/codeplayer_frontend:latest
+    ports:
+      - 80:80
+    networks:
+      - cpnet
+
+  server:
+    image: saurass/codeplayer_server:latest
+    ports:
+      - 5001:5001
+    env_file:
+      - ./server.env
+    networks:
+      - cpnet
+
+  worker:
+    build: .
+    image: saurass/codeplayer_worker:latest
+    env_file:
+      - ./worker.env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - cpnet
+    deploy:
+      placement:
+        constraints: [node.labels.place == work]
+
+networks:
+  cpnet:

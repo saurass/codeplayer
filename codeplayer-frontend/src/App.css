@@ -1,0 +1,24 @@
+.logo-img {
+    height: 40px;
+}
+
+.logo-info {
+    font-size: 14px;
+}
+
+.right-logo {
+    width: 100%;
+}
+
+.dp-profile {
+    border: 1px solid black;
+}
+
+.min-height-fix-footer {
+    min-height: calc(77% + 2px) !important;
+    bottom: 0 !important;
+}
+
+.main-div {
+    height: 100%;
+}
