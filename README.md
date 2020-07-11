@@ -5,7 +5,8 @@ An online judge system for competitive programming platform, The website is host
 The installation has been well tested to work on Ubuntu 16.04. Issues have been reported with installation on windows.
 * Install latest version of docker in your system.
 * Please pull two images `stepik/epicbox-gcc:6.3.0` and `python:3.6.5-alpine` using `docker pull <image_name>`
-* Clone this project; actually you only require the `docker-stack.yml` file : )
+* Clone this project; actually you only require the `docker-stack.yml` file and the three `*.env` files : )
+* Change the env variables in `worker.env`, `frontend.env` and `server.env` as per your required variables. Note the frontend service will start on port `80` only due to image.
 * Run the command in terminal `docker swarm init` to initialize a docker swarm.
 * Execute `docker stack deploy -c docker-stack.yml cp` and as easy as that.
 * All the four services will be up and running in a few minutes (depending upon your internet connectivity).
