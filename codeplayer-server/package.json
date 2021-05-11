@@ -22,7 +22,7 @@
         "formidable": "^1.2.1",
         "i": "^0.3.6",
         "jsonwebtoken": "^8.5.1",
-        "lodash": "^4.17.19",
+        "lodash": "^4.17.21",
         "mongoose": "^5.7.7",
         "morgan": "^1.9.1",
         "nodemon": "^1.19.4",
