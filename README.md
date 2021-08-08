@@ -32,4 +32,4 @@ The installation has been well tested to work on Ubuntu 16.04. Issues have been 
 * The status is notified to client as well as the server in real time.
 
 ## Contribution
-The repository is open to contributions, feel free to raise issues and make contributions. If you like what we do, Please do buy us a coffee, the setup can be found at home page of http://codeplayer.ninja
+The repository is open to contributions, feel free to raise issues and make contributions. If you like what we do, Please do buy us a coffee, the setup can be found at home page of http://codeplayer.co.in
