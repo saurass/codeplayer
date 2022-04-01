@@ -1,5 +1,5 @@
 # CodePlayer
-An online judge system for competitive programming platform, The website is hosted on http://codeplayer.co.in
+An online judge system for competitive programming platform, The website is hosted on http://codeplayer.ninja
 
 ## Installation
 The installation has been well tested to work on Ubuntu 16.04. Issues have been reported with installation on windows.
